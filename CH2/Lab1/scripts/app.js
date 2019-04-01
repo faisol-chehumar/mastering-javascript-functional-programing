@@ -15,8 +15,4 @@ const goodbye = (name, gender = '') => `Goodbye ${gender + name}`
 const greetingMimOnce = once(hello, goodbye)
 const greetingSolOnce = once(hello, goodbye)
 
-// console.log(greetingOnce('MootyMim'))
-// console.log(greetingOnce('MootyMim'))
-// console.log(greetingOnce('MootyMim'))
-
 exports.greeting = { greetingMimOnce, greetingSolOnce }
